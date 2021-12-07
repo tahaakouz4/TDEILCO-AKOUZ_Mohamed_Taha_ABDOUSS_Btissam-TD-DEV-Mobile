@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewsList</string>
+    <string name="login">LOGIN</string>
+    <string name="details">DETAILS</string>
+    <string name="logout">LOGOUT</string>
+    <string name="ok">OK</string>
+    <string name="about">ABOUT</string>
+    <string name="edit">Saisir le nom du compte</string>
+
+</resources>

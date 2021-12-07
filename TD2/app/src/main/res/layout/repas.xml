@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/Repas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="110dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/Entree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"/>
+            <TextView
+                android:text="@string/Plat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                android:textColor="@color/teal_700"/>
+            <CheckBox
+                android:text="@string/Fromage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                android:textColor="@color/teal_700"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:hint="@string/Entree1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="12dp"/>
+            <EditText
+                android:hint="@string/Plat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:text="@string/Fruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                android:textColor="@color/teal_700" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/RadioButtonMidi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Midi"
+            android:fontFamily="cursive"
+            android:textSize="25dp"
+            android:textColor="@color/teal_700"
+            />
+        <RadioButton
+            android:id="@+id/RadioButtonSoir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Soir"
+            android:fontFamily="cursive"
+            android:textSize="25dp"
+            android:textColor="@color/teal_700"/>
+    </RadioGroup>
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/valid"
+            android:text="@string/Valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/teal_200"/>
+
+        <Button
+            android:text="@string/Annuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/valid"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/teal_200"/>
+    </RelativeLayout>
+
+</LinearLayout>

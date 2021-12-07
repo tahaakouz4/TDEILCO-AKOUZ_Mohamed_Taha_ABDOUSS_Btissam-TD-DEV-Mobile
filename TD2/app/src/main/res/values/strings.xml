@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TD2</string>
+    <string name="message">Salut tout le monde</string>
+
+    <string name="Repas">Saisie de Repas</string>
+    <string name="Valider">Valider</string>
+    <string name="Annuler">Annuler</string>
+    <string name="Entree">Entrée :</string>
+    <string name="Plat">Plat Principal :</string>
+    <string name="Entree1">Entrée</string>
+    <string name="Plat1">Plat Principal</string>
+    <string name="Fromage">Fromage</string>
+    <string name="Fruit">Fruit</string>
+    <string name="Midi">Midi</string>
+    <string name="Soir">Soir</string>
+
+    <string name="Meteo">Saisie de relevés météo</string>
+    <string name="Date">Choix Date :</string>
+    <string name="Heure">Choix Heure :</string>
+    <string name="Temp">Température :</string>
+    <string name="Temp1">Saisir la température(°C)</string>
+    <string name="Vent">Vitesse du Vent :</string>
+    <string name="Vent1">Saisir la vitesse du vent(Km/h)</string>
+
+    <string name="Ciel">Etat du Ciel :</string>
+
+    <string name="Deg">Dégagé</string>
+    <string name="Couv">Couvert</string>
+    <string name="Pluv">Pluvieux</string>
+
+    <string-array name="etat_ciel_array">
+        <item>@string/Deg</item>
+        <item>@string/Couv</item>
+        <item>@string/Pluv</item>
+    </string-array>
+
+
+
+
+    <string name="hint_pick_up_date">dd/mm/yyyy</string>
+
+
+
+
+
+</resources>
